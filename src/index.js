@@ -28,6 +28,7 @@ console.log(linksRealArray.find((link) => link.textContent === "Home"));
 
 // 👉 3- Changing an element's text content
 //  A- Change the cat-related content into dog-related content
+logoTitle.textContent = "Lambda Dog";
 //  B- Have the students research online the difference between textContent and innerText
 
 // 👉 4- Changing any property
