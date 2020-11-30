@@ -58,7 +58,7 @@ header.style.fontSize = "2em";
 const blogLink = document.createElement("a");
 blogLink.textContent = "Blog";
 blogLink.href = "#";
-document.querySelector("nav");
+document.querySelector("nav").appendChild(blogLink);
 
 // 👉 7- Making a copy of the card and appending it to the card group
 // DOM nodes can only exist in one spot in the DOM
