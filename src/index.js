@@ -9,6 +9,7 @@ const logoTitle = document.querySelector("#logoTitle");
 const firstCard = document.querySelector(".card:nth-of-type(1)");
 // B- finding within one particular element
 const imageFirstCard = firstCard.querySelector("img");
+console.log(imageFirstCard);
 const titleFirstCard = null;
 const subtitleFirstCard = null;
 const textFirstCard = null;
