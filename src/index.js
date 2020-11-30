@@ -40,6 +40,7 @@ link2FirstCard.textContent = "Dog Ipsum";
 //  A- Using dot notation to change a few attributes
 imageFirstCard.src =
   "https://herepup.com/wp-content/uploads/2015/12/Dog-Advice-1-1.jpg";
+logoTitle.className = "logo heading banana";
 //  B- Using .setAttribute to change a few attributes
 
 // 👉 5- Changing the styling of an element
