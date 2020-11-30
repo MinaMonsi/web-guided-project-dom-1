@@ -49,6 +49,7 @@ link2FirstCard.setAttribute("href", "https://doggoipsum.com/");
 //  A- By changing the class names on the element with the classList API
 header.classList.add("sky");
 header.classList.remove("sky");
+setInterval(() => header.classList.toggle("sky"), 1000);
 //  B- By manipulating inline styles on the element
 
 // 👉 6- Creating new elements from scratch and appending them
