@@ -9,10 +9,9 @@ const logoTitle = document.querySelector("#logoTitle");
 const firstCard = document.querySelector(".card:nth-of-type(1)");
 // B- finding within one particular element
 const imageFirstCard = firstCard.querySelector("img");
-console.log(imageFirstCard);
-const titleFirstCard = null;
-const subtitleFirstCard = null;
-const textFirstCard = null;
+const titleFirstCard = firstCard.querySelector("h2");
+const subtitleFirstCard = firstCard.querySelector("h3");
+const textFirstCard = firstCard.querySelector("p");
 // C- traversing with dot notation
 const link1FirstCard = null;
 const link2FirstCard = null;
