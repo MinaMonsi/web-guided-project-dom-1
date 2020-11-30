@@ -43,6 +43,7 @@ imageFirstCard.src =
 logoTitle.className = "logo heading banana";
 //  B- Using .setAttribute to change a few attributes
 link1FirstCard.setAttribute("href", "https://www.pexels.com/search/dog/");
+link2FirstCard.setAttribute("href", "https://doggoipsum.com/");
 
 // 👉 5- Changing the styling of an element
 //  A- By changing the class names on the element with the classList API
