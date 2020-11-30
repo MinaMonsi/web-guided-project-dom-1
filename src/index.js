@@ -31,6 +31,9 @@ console.log(linksRealArray.find((link) => link.textContent === "Home"));
 logoTitle.textContent = "Lambda Dog";
 titleFirstCard.textContent = "I rulez";
 subtitleFirstCard.textContent = "obviously";
+textFirstCard.textContent = textFirstCard.textContent =
+  "Puggorino tungg puggorino, waggy wags. thicc wow such tempt. Very jealous pupper doing me a frighten puggorino very taste wow, borkdrive. Smol big ol fluffer pupperino fluffer, waggy wags ruff blep.";
+link2FirstCard.textContent = "Dog Ipsum";
 //  B- Have the students research online the difference between textContent and innerText
 
 // 👉 4- Changing any property
