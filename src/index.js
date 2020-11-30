@@ -64,7 +64,7 @@ document.querySelector("nav").appendChild(blogLink);
 // DOM nodes can only exist in one spot in the DOM
 // We cannot append the same copy multiple times
 const secondCard = firstCard.cloneNode(true);
-console.log(secondCard);
+document.querySelector(".card-group").appendChild(secondCard);
 
 // 👉 8- Removing an existing element and putting it back [STRETCH if time allows]
 
