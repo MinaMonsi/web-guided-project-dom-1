@@ -47,6 +47,7 @@ link2FirstCard.setAttribute("href", "https://doggoipsum.com/");
 
 // 👉 5- Changing the styling of an element
 //  A- By changing the class names on the element with the classList API
+header.classList.add("sky");
 //  B- By manipulating inline styles on the element
 
 // 👉 6- Creating new elements from scratch and appending them
